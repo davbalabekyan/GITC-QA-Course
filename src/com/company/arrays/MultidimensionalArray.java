@@ -4,6 +4,13 @@ public class MultidimensionalArray {
 
     public static void main(String[] args) {
 
+        int[][] twoDimensionalArray = createArray();
+
+        System.out.println(getMax(twoDimensionalArray));
+        System.out.println(getMin(twoDimensionalArray));
+    }
+
+    public static int[][] createArray(){
         int[][] twoDimensionalArray = new int[10][10];
 
         for (int i = 0; i < twoDimensionalArray.length; i++) {
@@ -12,8 +19,7 @@ public class MultidimensionalArray {
             }
         }
 
-        System.out.println(getMax(twoDimensionalArray));
-        System.out.println(getMin(twoDimensionalArray));
+        return twoDimensionalArray;
     }
 
     public static int getMax(int[][] twoDimensionalArray) {
