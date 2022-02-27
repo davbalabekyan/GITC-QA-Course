@@ -108,32 +108,32 @@ public class DynamicArray {
 
         int[] array = {1, 3, 10, -20, 7, 8, 3, -9};
 
-//
-//        System.out.println("Array");
-//        for (int element : array) {
-//            System.out.print(element + " ");
-//        }
-//        System.out.println();
-//        System.out.println("------------------------");
-//
-//        array = add(array, 7);
-//
-//        System.out.println("Array after add by value");
-//        for (int element : array) {
-//            System.out.print(element + " ");
-//        }
-//        System.out.println();
-//        System.out.println("------------------------");
-//
-//        array = add(array, 1, -6);
-//
-//        System.out.println("Array after add by index");
-//        for (int element : array) {
-//            System.out.print(element + " ");
-//        }
-//        System.out.println();
-//        System.out.println("------------------------");
-//
+
+        System.out.println("Array");
+        for (int element : array) {
+            System.out.print(element + " ");
+        }
+        System.out.println();
+        System.out.println("------------------------");
+
+        array = add(array, 7);
+
+        System.out.println("Array after add by value");
+        for (int element : array) {
+            System.out.print(element + " ");
+        }
+        System.out.println();
+        System.out.println("------------------------");
+
+        array = add(array, 1, -6);
+
+        System.out.println("Array after add by index");
+        for (int element : array) {
+            System.out.print(element + " ");
+        }
+        System.out.println();
+        System.out.println("------------------------");
+
         array = removeByValue(array, -2987);
 
         System.out.println("Array after remove by value");
@@ -142,21 +142,21 @@ public class DynamicArray {
         }
         System.out.println();
         System.out.println("------------------------");
-//
-//        array = removeByIndex(array, -1);
-//
-//        System.out.println("Array after remove by index");
-//        for (int element : array) {
-//            System.out.print(element + " ");
-//        }
-//        System.out.println();
-//        System.out.println("------------------------");
-//
-//        System.out.println("get first index from array by value ");
-//        System.out.println(indexOf(array, 7));
-//        System.out.println("------------------------");
-//
-//        System.out.println("get last index from array by value");
-//        System.out.println(lasIndexOf(array, 7));
+
+        array = removeByIndex(array, -1);
+
+        System.out.println("Array after remove by index");
+        for (int element : array) {
+            System.out.print(element + " ");
+        }
+        System.out.println();
+        System.out.println("------------------------");
+
+        System.out.println("get first index from array by value ");
+        System.out.println(indexOf(array, 7));
+        System.out.println("------------------------");
+
+        System.out.println("get last index from array by value");
+        System.out.println(lasIndexOf(array, 7));
     }
 }
